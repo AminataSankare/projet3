@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_consultation">
+        <item>Consultation 1</item>
+        <item>Consultation 2</item>
+        <item>Consultation 3</item>
+        <item>Consultation 4</item>
+        <item>Consultation 5</item>
+    </string-array>
+    <string-array name="tab_details">
+        <item>Consultation prevue le  </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="tab_patient">
+        <item>Patient 1</item>
+        <item>Patient 2</item>
+        <item>Patient 3</item>
+        <item>Patient 4</item>
+        <item>Patient 5</item>
+    </string-array>
+    <string-array name="tab_details_patient">
+        <item>Patient 1</item>
+        <item>Patient 2</item>
+        <item>Patient 3</item>
+        <item>Patient 4</item>
+        <item>Patient 5</item>
+    </string-array>
+</resources>

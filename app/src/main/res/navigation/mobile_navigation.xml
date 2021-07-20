@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projet3.ui.home.HomeFragment"
+        android:label="@string/presentation"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_consultation"
+        android:name="com.example.projet3.ConsultationsFragment"
+        android:label="@string/consultations"
+        tools:layout="@layout/fragment_consultations" />
+
+    <fragment
+        android:id="@+id/nav_patients"
+        android:name="com.example.projet3.PatientsFragment"
+        android:label="@string/patients"
+        tools:layout="@layout/fragment_patients" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.projet3.PatientsFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
