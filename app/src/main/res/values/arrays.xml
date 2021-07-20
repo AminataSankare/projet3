@@ -8,24 +8,20 @@
         <item>Consultation 5</item>
     </string-array>
     <string-array name="tab_details">
-        <item>Consultation prevue le  </item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Consultation 1 prevue le mercredi 18 août </item>
+        <item>Consultation 2 prevue le mercredi 19 août </item>
+        <item>Consultation 3 prevue le mercredi 10 août </item>
+        <item>Consultation 4 prevue le mercredi 18 août </item>
+        <item>Consultation 5 prevue le mercredi 18 août </item>
     </string-array>
     <string-array name="tab_patient">
-        <item>Patient 1</item>
-        <item>Patient 2</item>
-        <item>Patient 3</item>
-        <item>Patient 4</item>
-        <item>Patient 5</item>
+        <item>Aminata Sankare</item>
+        <item>Alioune Sall</item>
+        <item>Hamad Thiongane</item>
     </string-array>
     <string-array name="tab_details_patient">
-        <item>Patient 1</item>
-        <item>Patient 2</item>
-        <item>Patient 3</item>
-        <item>Patient 4</item>
-        <item>Patient 5</item>
+        <item>Aminata Sankare Patient 1: ---</item>
+        <item>Alioune Sall Patient 2: ---</item>
+        <item>Hamad Thiongane Patient 3: ---</item>
     </string-array>
 </resources>
