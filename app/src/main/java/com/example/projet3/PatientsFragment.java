@@ -15,7 +15,7 @@ import android.widget.ListView;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ConsultationsFragment} factory method to
+ * Use the {@link PatientsFragment} factory method to
  * create an instance of this fragment.
  */
 public class PatientsFragment extends Fragment {
@@ -27,7 +27,7 @@ public class PatientsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_consultations, container, false);
+        View view = inflater.inflate(R.layout.fragment_patients, container, false);
         listPatients = view.findViewById(R.id.listPatients);
         tabPatients = getResources().getStringArray(R.array.tab_patient);
         tabDetails = getResources().getStringArray(R.array.tab_details_patient);
@@ -39,11 +39,22 @@ public class PatientsFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 patients = tabPatients[position];
                 details = tabDetails[position];
-                getFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.nav_host_fragment_container,new DetailsPatientFragment())
-                    .addToBackStack(null)
-                    .commit();
+                AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+                dialog.setIcon(R.mipmap.ic_launcher);
+                dialog.setTitle(patients);
+                dialog.setMessage(details);
+                dialog.setNegativeButton(getString(R.string.back), null);
+                dialog.setPositiveButton(getString(R.string.see_patient), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        getFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.nav_host_fragment_content_home,new DetailsPatientFragment())
+                                .addToBackStack(null)
+                                .commit();
+                    }
+                });
+                dialog.show();
             }
         });
         return view;
