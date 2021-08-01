@@ -24,7 +24,13 @@
         tools:layout="@layout/fragment_patients" />
     <fragment
         android:id="@+id/nav_help"
-        android:name="com.example.projet3.PatientsFragment"
+        android:name="com.example.projet3.HelpFragment"
         android:label="@string/help"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_rv"
+        android:name="com.example.projet3.RvFragment"
+        android:label="@string/date"
+        tools:layout="@layout/fragment_rv" />
+
 </navigation>

@@ -12,14 +12,7 @@
     <string name="date">Date</string>
     <string name="error_field">Une erreur est survenue</string>
     <string name="back">Back</string>
-    <string name="description">La clinique cardio force (CCF) de l’Institut de Cardiologie de Montréal a été créée afin d’offrir des soins optimaux et une meilleure qualité de vie aux patients atteints de cette maladie chronique. Des rencontres individualisées sont planifiées avec divers professionnels spécialisés en insuffisance cardiaque : infirmières, nutritionnistes, pharmaciens et cardiologues. L’équipe interdisciplinaire est là pour :
-        vous offrir un plan de traitement à la fine pointe des connaissances répondant aux standards de qualité les plus élevé;
-        assurer un suivi de votre état de santé
-        assurer des soins optimaux
-        ajuster votre médication selon le développement des connaissances scientifiques
-        enseigner ce qu’est l’insuffisance cardiaque et comment prévenir ses complications potentielles
-        optimiser l’observance aux traitements pharmacologiques et non pharmacologiques
-        diminuer le nombre de visites à l’urgence et le nombre d’hospitalisations qui sont en lien avec l’insuffisance cardiaque</string>
+    <string name="description">cccc</string>
     <string name="finish">Finish consultation </string>
     <string name="see_patient">See patient file</string>
     <string name="title_activity_home">HomeActivity</string>

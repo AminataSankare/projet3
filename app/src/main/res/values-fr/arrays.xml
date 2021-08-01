@@ -14,4 +14,15 @@
         <item></item>
         <item></item>
     </string-array>
+    <string-array name="tab_help">
+        <item>1- Qui est à l\'origine du Clinique cardio force (CCF)</item>
+        <item>2- Quel est le but de la réforme du CCF ?</item>
+        <item>3- Quels sont les professionnels de santé concernés par la réforme ?</item>
+    </string-array>
+    <string-array name="tab_details_help">
+        <item>Il s\'agit d\'une réforme souhaitée par le Président de la République.
+Les négociations ont pris place entre l\'assurance-maladie, les complémentaires santé, les dentistes, les opticiens et les audioprothésistes.</item>
+        <item>Il s\'agit de rendre accessible à toutes personnes, l\'optique, l\'audiprothèse et le dentaire en réduisant les restes à charge pour les patients, de diminuer le renoncement aux soins pour des raisons financières et de favoriser la prévention</item>
+        <item>Tous les opticiens, dentistes, les cardiologues et distributeurs d\'aides auditives devront proposer une panier de soins 100% remboursé et délivrer un devis comportant cette offre.</item>
+    </string-array>
 </resources>
